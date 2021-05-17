@@ -6,28 +6,24 @@
     --color4: #2ef00840;
     --color_light_gray: #bdbdbd82;
     --color_dark_gray: #7976767a;
-
-
-
-    
-    /* --page_bg:repeating-linear-gradient(284deg, transparent 0px, transparent 1px,rgba(251,251,251, 0.91) 1px, rgba(251,251,251, 0.91) 3px),repeating-linear-gradient(14deg, transparent 0px, transparent 1px,rgba(251,251,251, 0.91) 1px, rgba(251,251,251, 0.91) 3px),linear-gradient(90deg, rgb(222,222,222),rgb(222,222,222)); */
-    --page_bg: repeating-linear-gradient(249deg, transparent 0px, transparent 3px,rgb(255,255,255) 3px, rgb(255,255,255) 32px),repeating-linear-gradient(307deg, transparent 0px, transparent 3px,rgb(255,255,255) 3px, rgb(255,255,255) 32px),linear-gradient(90deg, hsl(191,85%,78%),hsl(242.429,85%,78%),hsl(293.857,85%,78%),hsl(345.286,85%,78%),hsl(36.714,85%,78%),hsl(88.143,85%,78%),hsl(139.571,85%,78%));
-    --topbar_bg: linear-gradient(78deg, transparent 0%, transparent 36%,rgba(17, 17, 17,0.02) 36%, rgba(17, 17, 17,0.02) 56%,transparent 56%, transparent 100%),linear-gradient(30deg, transparent 0%, transparent 2%,rgba(105, 105, 105,0.02) 2%, rgba(105, 105, 105,0.02) 75%,transparent 75%, transparent 100%),linear-gradient(206deg, transparent 0%, transparent 68%,rgba(3, 3, 3,0.02) 68%, rgba(3, 3, 3,0.02) 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
-    --menubar_bg:radial-gradient(circle at center center, transparent, rgb(255, 255, 255)), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, hsl(107, 19%, 100%), hsl(107, 19%, 100%));
-    --jumbotron_bg:rgb(240, 240, 240);
-    --jumbotron_border:#f7f2f2;
-    --menubar_shadow:rgb(136, 132, 132);
-    --dark_theme_btn_color:black;
+    --page_bg: repeating-linear-gradient(249deg, transparent 0px, transparent 3px, rgb(255, 255, 255) 3px, rgb(255, 255, 255) 32px), repeating-linear-gradient(307deg, transparent 0px, transparent 3px, rgb(255, 255, 255) 3px, rgb(255, 255, 255) 32px), linear-gradient(90deg, hsl(191, 85%, 78%), hsl(242.429, 85%, 78%), hsl(293.857, 85%, 78%), hsl(345.286, 85%, 78%), hsl(36.714, 85%, 78%), hsl(88.143, 85%, 78%), hsl(139.571, 85%, 78%));
+    /* --topbar_bg: linear-gradient(78deg, transparent 0%, transparent 36%,rgba(17, 17, 17,0.02) 36%, rgba(17, 17, 17,0.02) 56%,transparent 56%, transparent 100%),linear-gradient(30deg, transparent 0%, transparent 2%,rgba(105, 105, 105,0.02) 2%, rgba(105, 105, 105,0.02) 75%,transparent 75%, transparent 100%),linear-gradient(206deg, transparent 0%, transparent 68%,rgba(3, 3, 3,0.02) 68%, rgba(3, 3, 3,0.02) 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255)); */
+    /* --topbar_bg: url("https://cdn.pixabay.com/photo/2017/07/31/21/52/background-2561431_1280.jpg"); */
+    --topbar_bg: url("https://cdn.pixabay.com/photo/2017/11/09/00/07/christmas-2932077_1280.jpg");
+    --menubar_bg: radial-gradient(circle at center center, transparent, rgb(255, 255, 255)), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, hsl(107, 19%, 100%), hsl(107, 19%, 100%));
+    --jumbotron_bg: rgb(240, 240, 240);
+    --jumbotron_border: #f7f2f2;
+    --menubar_shadow: rgb(136, 132, 132);
+    --dark_theme_btn_color: black;
 }
 
-body.dark-theme{
-    --page_bg: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
-    --topbar_bg: linear-gradient(135deg, rgba(107, 107, 107,0.06) 0%, rgba(107, 107, 107,0.06) 50%,rgba(202, 202, 202,0.06) 50%, rgba(202, 202, 202,0.06) 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20)); background-size: 30px 30px;
-    --menubar_bg: radial-gradient(circle at center center, transparent 0%,rgb(0,0,0) 85%),linear-gradient(78deg, rgba(192, 192, 192,0.05) 0%, rgba(192, 192, 192,0.05) 50%,rgba(60, 60, 60,0.05) 50%, rgba(60, 60, 60,0.05) 100%),linear-gradient(227deg, rgba(97, 97, 97,0.05) 0%, rgba(97, 97, 97,0.05) 50%,rgba(52, 52, 52,0.05) 50%, rgba(52, 52, 52,0.05) 100%),linear-gradient(240deg, rgba(98, 98, 98,0.05) 0%, rgba(98, 98, 98,0.05) 50%,rgba(249, 249, 249,0.05) 50%, rgba(249, 249, 249,0.05) 100%),linear-gradient(187deg, rgba(1, 1, 1,0.05) 0%, rgba(1, 1, 1,0.05) 50%,rgba(202, 202, 202,0.05) 50%, rgba(202, 202, 202,0.05) 100%),linear-gradient(101deg, rgba(61, 61, 61,0.05) 0%, rgba(61, 61, 61,0.05) 50%,rgba(254, 254, 254,0.05) 50%, rgba(254, 254, 254,0.05) 100%),linear-gradient(176deg, rgba(237, 237, 237,0.05) 0%, rgba(237, 237, 237,0.05) 50%,rgba(147, 147, 147,0.05) 50%, rgba(147, 147, 147,0.05) 100%),linear-gradient(304deg, rgba(183, 183, 183,0.05) 0%, rgba(183, 183, 183,0.05) 50%,rgba(57, 57, 57,0.05) 50%, rgba(57, 57, 57,0.05) 100%),radial-gradient(circle at center center, hsl(351,4%,12%),hsl(351,4%,12%));
-    --menubar_shadow:rgb(82, 82, 82);
-    --jumbotron_bg:rgb(53, 53, 53);
-    --jumbotron_border:#4d4d4d;
-    --dark_theme_btn_color:white;
+body.dark-theme {
+    --page_bg: repeating-linear-gradient(135deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 10px, transparent 10px, transparent 11px), repeating-linear-gradient(22.5deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 10px, transparent 10px, transparent 11px), linear-gradient(90deg, hsl(194, 74%, 56%), hsl(266, 74%, 56%), hsl(338, 74%, 56%), hsl(50, 74%, 56%), hsl(122, 74%, 56%));
+    --menubar_bg: radial-gradient(circle at center center, transparent 0%, rgb(0, 0, 0) 85%), linear-gradient(78deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 50%, rgba(60, 60, 60, 0.05) 50%, rgba(60, 60, 60, 0.05) 100%), linear-gradient(227deg, rgba(97, 97, 97, 0.05) 0%, rgba(97, 97, 97, 0.05) 50%, rgba(52, 52, 52, 0.05) 50%, rgba(52, 52, 52, 0.05) 100%), linear-gradient(240deg, rgba(98, 98, 98, 0.05) 0%, rgba(98, 98, 98, 0.05) 50%, rgba(249, 249, 249, 0.05) 50%, rgba(249, 249, 249, 0.05) 100%), linear-gradient(187deg, rgba(1, 1, 1, 0.05) 0%, rgba(1, 1, 1, 0.05) 50%, rgba(202, 202, 202, 0.05) 50%, rgba(202, 202, 202, 0.05) 100%), linear-gradient(101deg, rgba(61, 61, 61, 0.05) 0%, rgba(61, 61, 61, 0.05) 50%, rgba(254, 254, 254, 0.05) 50%, rgba(254, 254, 254, 0.05) 100%), linear-gradient(176deg, rgba(237, 237, 237, 0.05) 0%, rgba(237, 237, 237, 0.05) 50%, rgba(147, 147, 147, 0.05) 50%, rgba(147, 147, 147, 0.05) 100%), linear-gradient(304deg, rgba(183, 183, 183, 0.05) 0%, rgba(183, 183, 183, 0.05) 50%, rgba(57, 57, 57, 0.05) 50%, rgba(57, 57, 57, 0.05) 100%), radial-gradient(circle at center center, hsl(351, 4%, 12%), hsl(351, 4%, 12%));
+    --menubar_shadow: rgb(82, 82, 82);
+    --jumbotron_bg: rgb(53, 53, 53);
+    --jumbotron_border: #4d4d4d;
+    --dark_theme_btn_color: white;
 
 
 }
@@ -35,18 +31,41 @@ body.dark-theme{
 
 
 body {
-    
+
     background-image: var(--page_bg);
 }
 
 /* ++++++++++++++++ TopBar ++++++++++++++++++ */
 
 .topbar {
-    background-image: var(--topbar_bg);
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
 
+.image-bg {
+    background-image: var(--topbar_bg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.topbar .container-fluid {
+    z-index: 2;
+}
+
+/* for dark theme blur */
+.container-fluid.foreground {
+    backdrop-filter: blur(1px) grayscale(0.5) opacity(0.9);
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 2px 4px rgb(179, 255, 169);
+}
 
 .topbar .navbar-brand {
     padding-bottom: 0 !important;
@@ -64,14 +83,16 @@ body {
     box-shadow: 0px 4px 3px var(--menubar_shadow);
     margin-bottom: 5px;
 }
-a, h5 {
-   color:  var(--text_color) !important; 
+
+a,
+h5 {
+    color: var(--text_color) !important;
 
 }
 
 .menubar .contact_me {
-    color: white !important; 
-    background-color:var(--text_color);
+    color: white !important;
+    background-color: var(--text_color);
 }
 
 
@@ -83,14 +104,14 @@ a, h5 {
 }
 
 
- .navbar-toggler-icon {
-     /* fill:green !important; */
+.navbar-toggler-icon {
+    /* fill:green !important; */
     /* color: hsla(110, 97%, 27%, 0.502) !important; */
     background-image: none !important;
     background-color: var(--color1);
     -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='red' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-   
+
 
 }
 
@@ -115,16 +136,17 @@ a, h5 {
 .dark-theme-btn .form-check-label {
     color: var(--dark_theme_btn_color);
 }
+
 .dark-theme-btn .form-check-input:checked {
     background-color: var(--text_color);
-    border-color:var(--color1);
+    border-color: var(--color1);
 }
 
 .dark-theme-btn .form-check-input:focus {
     border-color: var(--color2);
     outline: 0;
     box-shadow: 0 0 0 .25rem var(--color4);
-   
+
 }
 
 /* ++++++++++++ Footer +++++++++++++++++++ */
@@ -133,10 +155,7 @@ a, h5 {
 footer {
 
     /* using multiple Shadows, inset to make shadow inside the box */
-    box-shadow: 0px 0.1em 0.2em var(--text_color) inset, 0px 0.1em 0.2em var(--color1) inset, 0px 0.1em 0.2em var(--color2) inset ;
-      
-    
+    box-shadow: 0px 0.1em 0.2em var(--text_color) inset, 0px 0.1em 0.2em var(--color1) inset, 0px 0.1em 0.2em var(--color2) inset;
+
+
 }
-
-
-

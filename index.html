@@ -13,13 +13,16 @@
 <body>
 
   <!-- Header part -->
-  <nav class="topbar navbar navbar-light bg-light">
-    <div class="container-fluid">
+  <nav class="topbar navbar navbar-light ">
+    <div class="image-bg"></div>
+    <div class="container-fluid" id="foreground">
       <a class="navbar-brand " href="#">
-        <img src="./images/profile_photo.png" alt="" height="100">
-        <span class="fw-bold fs-4">Altaf Husen</span>
+        <img class="profileimg" src="./images/profile_photo.png" alt="" height="100">
+        <span>Altaf Husen</span>
       </a>
+      
     </div>
+    
   </nav>
   <nav class="menubar sticky-top navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
@@ -150,10 +153,12 @@
 
       if (document.getElementById('darkModeSwitch').checked) {
         document.body.classList.add("dark-theme");
+        document.getElementById('foreground').classList.add('foreground');
 
       }
       else {
         document.body.classList.remove("dark-theme");
+        document.getElementById('foreground').classList.remove('foreground');
 
       }
     };
@@ -162,6 +167,8 @@
     btn.addEventListener("change", function () {
       //console.log("changed");
       document.body.classList.toggle("dark-theme");
+      document.getElementById('foreground').classList.toggle('foreground');
+
     });
 
   </script>
