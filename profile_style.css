@@ -37,11 +37,6 @@ body {
 
 /* ++++++++++++++++ TopBar ++++++++++++++++++ */
 
-.topbar {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-
 .image-bg {
     background-image: var(--topbar_bg);
     background-size: cover;
