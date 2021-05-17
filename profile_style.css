@@ -9,7 +9,7 @@
     --page_bg: repeating-linear-gradient(249deg, transparent 0px, transparent 3px, rgb(255, 255, 255) 3px, rgb(255, 255, 255) 32px), repeating-linear-gradient(307deg, transparent 0px, transparent 3px, rgb(255, 255, 255) 3px, rgb(255, 255, 255) 32px), linear-gradient(90deg, hsl(191, 85%, 78%), hsl(242.429, 85%, 78%), hsl(293.857, 85%, 78%), hsl(345.286, 85%, 78%), hsl(36.714, 85%, 78%), hsl(88.143, 85%, 78%), hsl(139.571, 85%, 78%));
     /* --topbar_bg: linear-gradient(78deg, transparent 0%, transparent 36%,rgba(17, 17, 17,0.02) 36%, rgba(17, 17, 17,0.02) 56%,transparent 56%, transparent 100%),linear-gradient(30deg, transparent 0%, transparent 2%,rgba(105, 105, 105,0.02) 2%, rgba(105, 105, 105,0.02) 75%,transparent 75%, transparent 100%),linear-gradient(206deg, transparent 0%, transparent 68%,rgba(3, 3, 3,0.02) 68%, rgba(3, 3, 3,0.02) 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255)); */
     /* --topbar_bg: url("https://cdn.pixabay.com/photo/2017/07/31/21/52/background-2561431_1280.jpg"); */
-    --topbar_bg: url("https://cdn.pixabay.com/photo/2017/11/09/00/07/christmas-2932077_1280.jpg");
+    --topbar_bg: url("https://cdn.pixabay.com/photo/2018/08/18/18/42/emotions-3615255_1280.jpg");
     --menubar_bg: radial-gradient(circle at center center, transparent, rgb(255, 255, 255)), linear-gradient(309deg, rgba(90, 90, 90, 0.05) 0%, rgba(90, 90, 90, 0.05) 50%, rgba(206, 206, 206, 0.05) 50%, rgba(206, 206, 206, 0.05) 100%), linear-gradient(39deg, rgba(13, 13, 13, 0.05) 0%, rgba(13, 13, 13, 0.05) 50%, rgba(189, 189, 189, 0.05) 50%, rgba(189, 189, 189, 0.05) 100%), linear-gradient(144deg, rgba(249, 249, 249, 0.05) 0%, rgba(249, 249, 249, 0.05) 50%, rgba(111, 111, 111, 0.05) 50%, rgba(111, 111, 111, 0.05) 100%), linear-gradient(166deg, rgba(231, 231, 231, 0.05) 0%, rgba(231, 231, 231, 0.05) 50%, rgba(220, 220, 220, 0.05) 50%, rgba(220, 220, 220, 0.05) 100%), linear-gradient(212deg, rgba(80, 80, 80, 0.05) 0%, rgba(80, 80, 80, 0.05) 50%, rgba(243, 243, 243, 0.05) 50%, rgba(243, 243, 243, 0.05) 100%), radial-gradient(circle at center center, hsl(107, 19%, 100%), hsl(107, 19%, 100%));
     --jumbotron_bg: rgb(240, 240, 240);
     --jumbotron_border: #f7f2f2;
@@ -45,7 +45,6 @@ body {
 .image-bg {
     background-image: var(--topbar_bg);
     background-size: cover;
-
     background-repeat: no-repeat;
     position: absolute;
     width: 100%;
@@ -64,7 +63,7 @@ body {
 .navbar-brand span {
     font-weight: bold;
     font-size: xx-large;
-    text-shadow: 2px 4px rgb(179, 255, 169);
+    text-shadow: 1px 2px rgb(179, 255, 169);
 }
 
 .topbar .navbar-brand {
@@ -81,7 +80,6 @@ body {
 .menubar {
     background-image: var(--menubar_bg);
     box-shadow: 0px 4px 3px var(--menubar_shadow);
-    margin-bottom: 5px;
 }
 
 a,
